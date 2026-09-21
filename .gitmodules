@@ -1,0 +1,4 @@
+[submodule "external/oca-web"]
+	path = external/oca-web
+	url = https://github.com/OCA/web.git
+	branch = 19.0
