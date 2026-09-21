@@ -6,7 +6,7 @@
 - [x] Verify OCA 19.0 branch availability for key repos — done 2026-09-21, see table below
 
 ## Core layer
-- [ ] `startup_base`: company settings, branding, default config
+- [x] `startup_base`: company settings, branding, default config — built 2026-09-21 (res.company color/tagline fields + Settings UI)
 - [ ] `startup_security`: roles, access groups, record rules
 - [ ] `startup_automation`: automated actions, scheduled jobs, notifications
 - [ ] `startup_dashboard`: KPI dashboards (sales, finance, HR, projects)
@@ -15,7 +15,7 @@
 - [ ] `startup_onboarding`: setup wizard to enable modules and config
 - [ ] `startup_audit`: audit log and change tracking
 - [ ] `startup_api`: REST API and integration hooks
-- [ ] `startup_home_menu`: full-screen app grid, live search, keyboard navigation, recents/favorites
+- [x] `startup_home_menu`: full-screen app grid, live search, keyboard navigation, recents/favorites — built 2026-09-21 (wraps OCA `web_responsive`)
 - [ ] `startup_theme`: colors, fonts, login page, navbar, backgrounds, icon set (`web_icon` on every root menu), driven by company settings
 
 ## Enterprise replacements
