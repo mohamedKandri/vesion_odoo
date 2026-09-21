@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates>
+    <t t-inherit="web_responsive.AppsMenu" t-inherit-mode="extension">
+        <xpath expr="//div[hasclass('o_grid_apps_menu')]" position="attributes">
+            <attribute name="t-attf-style">--startup-primary: {{startupBranding.primary_color}}; --startup-secondary: {{startupBranding.secondary_color}};</attribute>
+        </xpath>
+        <xpath expr="//t[@t-slot='search_bar']" position="before">
+            <div class="o_startup_menu_brand text-center">
+                <div class="o_startup_menu_brand_name" t-esc="startupBranding.name" />
+                <div
+                    t-if="startupBranding.tagline"
+                    class="o_startup_menu_brand_tagline"
+                    t-esc="startupBranding.tagline"
+                />
+            </div>
+        </xpath>
+    </t>
+</templates>

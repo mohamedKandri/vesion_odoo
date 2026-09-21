@@ -1,0 +1,54 @@
+.o_grid_apps_menu {
+    --startup-menu-background: linear-gradient(
+            160deg,
+            rgba(6, 10, 20, 0.92),
+            rgba(6, 10, 20, 0.92)
+        ),
+        linear-gradient(
+            135deg,
+            var(--startup-primary, #0b1120),
+            var(--startup-secondary, #017e84)
+        );
+
+    &[data-theme="milk"],
+    &[data-theme="community"] {
+        --app-menu-background: var(--startup-menu-background);
+        --app-menu-text-color: #f5f7fb;
+        --app-menu-hover-background: rgba(255, 255, 255, 0.08);
+    }
+}
+
+.o_startup_menu_brand {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    color: #f5f7fb;
+
+    &_name {
+        font-size: 2rem;
+        font-weight: 600;
+        letter-spacing: 0.35em;
+        text-transform: uppercase;
+        text-indent: 0.35em;
+    }
+
+    &_tagline {
+        margin-top: 0.35rem;
+        font-size: 0.85rem;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        color: rgba(245, 247, 251, 0.6);
+    }
+}
+
+.o-app-menu-item {
+    &__icon {
+        border-radius: 14px !important;
+        background-color: rgba(255, 255, 255, 0.06) !important;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    &:hover &__icon,
+    &:focus &__icon {
+        border-color: var(--startup-secondary, #017e84);
+    }
+}
