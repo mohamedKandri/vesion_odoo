@@ -38,12 +38,13 @@
 - [ ] `startup_vertical_*`: per-specialty modules (retail, services, logistics, ...)
 
 ## Standard Community apps to install
-- [ ] **Finance:** Invoicing, Payment Providers
-- [ ] **Sales:** CRM, Sales, Contacts
-- [ ] **Operations:** Purchase, Inventory, Project, Timesheets, Manufacturing, Maintenance, Fleet
-- [ ] **People:** Employees, Recruitment, Time Off, Attendance, Lunch
-- [ ] **Business:** Website, eCommerce, Email Marketing, Discuss, Calendar, Live Chat, Surveys, eLearning
-- [ ] **Tools:** Point of Sale
+Installed 2026-09-21 into the `startup` database (192 modules total incl. transitive deps, no errors).
+- [x] **Finance:** Invoicing, Payment Providers
+- [x] **Sales:** CRM, Sales, Contacts
+- [x] **Operations:** Purchase, Inventory, Project, Timesheets, Manufacturing, Maintenance, Fleet
+- [x] **People:** Employees, Recruitment, Time Off, Attendance, Lunch
+- [x] **Business:** Website, eCommerce, Email Marketing, Discuss, Calendar, Live Chat, Surveys, eLearning
+- [x] **Tools:** Point of Sale
 
 ## OCA modules to evaluate before building from scratch
 Checked against GitHub 19.0 branches on 2026-09-21 (module count = 18.0 vs 19.0, rough maturity proxy).
