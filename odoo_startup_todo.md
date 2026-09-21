@@ -16,7 +16,7 @@
 - [ ] `startup_audit`: audit log and change tracking
 - [ ] `startup_api`: REST API and integration hooks
 - [x] `startup_home_menu`: full-screen app grid, live search, keyboard navigation, recents/favorites — built 2026-09-21 (wraps OCA `web_responsive`)
-- [ ] `startup_theme`: colors, fonts, login page, navbar, backgrounds, icon set (`web_icon` on every root menu), driven by company settings
+- [ ] `startup_theme`: colors, fonts, login page, navbar, backgrounds, icon set (`web_icon` on every root menu), driven by company settings — **in progress 2026-09-21**: app-grid background + wordmark/tagline done (company primary/secondary color, dynamic via session_info); login page, navbar, and per-app `web_icon` still open
 
 ## Enterprise replacements
 - [ ] `startup_accounting`: bank reconciliation, financial reports, assets, budgets
